@@ -1,0 +1,51 @@
+.custom-menu-item {
+    font-family: 'Ultra', sans-serif;
+  color: #ffffff; /* Change font color to white */
+
+}
+
+.navbar .nav-link {
+  color: #ffffff; /* Set the menu text color to white */
+  font-size: 1.5em; /* Set the font size to 1.5em */
+    font-weight: normal; /* Set the font weight to normal */
+
+}
+
+.navbar .nav-link:hover {
+  color: #777777; /* Set the menu text color on hover to grey */
+}
+
+.navbar .nav-link:focus,
+.navbar .nav-link:active {
+  color: #ffffff; /* Prevent the menu text color from changing on click */
+}
+
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0;
+}
+
+.navbar-toggler-icon {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  background-color: #ffffff;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before,
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+  background-color: #ffffff;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  outline: none;
+  box-shadow: none;
+}

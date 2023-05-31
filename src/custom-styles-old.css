@@ -1,0 +1,41 @@
+.custom-menu-item {
+    font-family: 'Ultra', sans-serif;
+
+}
+
+.description {
+  font-size: 1.5em; /* Adjust the font size using em unit */
+  margin: 10% 10%;
+}
+.descriptionbox {
+  font-size: 1.5em; /* Adjust the font size using em unit */
+  margin: 2% 2%;
+}
+.title {
+  font-size: 2.5em; /* Adjust the font size using em unit */
+}
+
+.how-to-buy-container {
+}
+
+.how-to-buy-section {
+  margin-bottom: 20px; /* Add vertical spacing between sections */
+}
+
+.how-to-buy-box {
+  border: 1px solid #000000;
+  padding: 20px;
+  background-color: #23A5D9;
+  color: #ffffff;
+  font-weight: normal; /* Set the font weight to normal */
+}
+
+.how-to-buy-box h3 {
+  margin-top: 0;
+  font-weight: normal; /* Set the font weight to bold for the heading */
+}
+
+.how-to-buy-box p {
+  font-weight: normal; /* Set the font weight to normal for the paragraph */
+}
+

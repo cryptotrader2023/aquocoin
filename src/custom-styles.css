@@ -1,0 +1,117 @@
+.custom-menu-item {
+    font-family: 'Ultra', sans-serif;
+  color: #ffffff; /* Change font color to white */
+
+}
+
+/* SectionSeparator.css */
+
+/* Divider.css */
+
+.brick-divider {
+  background-image: url('./wave.png');
+  background-repeat: repeat-x;
+  height: 60px;
+  margin: 30px 0; /* Add vertical margin of 20px */
+}
+
+.topbrick-divider {
+  background-image: url('./topwave.png');
+  background-repeat: repeat-x;
+  height: 30px;
+  margin: 40px 0; /* Add vertical margin of 20px */
+}
+
+.section-separator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.separator-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.description {
+  font-size: 1.5em; /* Adjust the font size using em unit */
+  margin: 10% 10%;
+    color: #ffffff; /* Change font color to white */
+
+}
+.descriptionbox {
+  font-size: 1.5em; /* Adjust the font size using em unit */
+  margin: 2% 2%;
+    color: #ffffff; /* Change font color to white */
+
+}
+.title {
+  font-size: 2.5em; /* Adjust the font size using em unit */
+    color: #ffffff; /* Change font color to white */
+
+}
+
+.how-to-buy-container {
+}
+
+.how-to-buy-section {
+  margin-bottom: 20px; /* Add vertical spacing between sections */
+}
+
+.how-to-buy-box {
+  border: 1px solid #000000;
+  padding: 20px;
+  background-color: #23A5D9;
+  color: #ffffff;
+  font-weight: normal; /* Set the font weight to normal */
+}
+
+.how-to-buy-box h3 {
+  margin-top: 0;
+  font-weight: normal; /* Set the font weight to bold for the heading */
+    color: #ffffff; /* Change font color to white */
+
+}
+
+.how-to-buy-box p {
+  font-weight: normal; /* Set the font weight to normal for the paragraph */
+    color: #ffffff; /* Change font color to white */
+
+}
+
+
+
+
+/* custom-styles.css */
+
+.how-to-buy-container {
+}
+
+.how-to-buy-box ul.list li {
+  margin-bottom: 5px;
+}
+
+.centered-row {
+  display: flex;
+  justify-content: center;
+}
+
+.how-to-buy-box {
+  border: 1px solid #000000;
+  padding: 20px;
+  background-color: #23A5D9;
+  color: #ffffff;
+}
+
+.how-to-buy-box h3.title {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.how-to-buy-box p.description {
+  margin: 2% 2%;
+}
+
