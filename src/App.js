@@ -8,6 +8,7 @@ import Tokenomics from './components/Tokenomics';
 import Roadmap from './components/Roadmap';
 import BuyNow from './components/BuyNow';
 import Divider from './components/Divider';
+import Island from './components/Island';
 import TopDivider from './components/TopDivider';
 import logo from './aquologo.png'; // Import the logo image
 import './custom-styles.css'; // Import the custom CSS file
@@ -24,6 +25,7 @@ const App = () => {
   const tokenomicsRef = useRef(null);
   const roadmapRef = useRef(null);
   const buyNowRef = useRef(null);
+  const islandRef = useRef(null);
   const [expanded, setExpanded] = useState(false);
 
   const scrollToSection = (ref) => {
@@ -68,6 +70,9 @@ const App = () => {
             <Nav.Link href="#buyNow" onClick={() => scrollToSection(buyNowRef)} className="nav-link">
               Buy Now
             </Nav.Link>
+            <Nav.Link href="#island" onClick={() => scrollToSection(islandRef)} className="nav-link">
+              Island
+            </Nav.Link>
             <Nav.Link as={Link} to={whitepaper} target="_blank" className="nav-link">
               Whitepaper
             </Nav.Link>
@@ -104,6 +109,11 @@ const App = () => {
         <Roadmap />
       </div>
 
+      <Divider />
+
+      <div ref={islandRef} className="section">
+        <Island />
+      </div>
       <Divider />
 
       <div ref={buyNowRef} className="section">

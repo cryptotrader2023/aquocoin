@@ -87,6 +87,10 @@
   margin-bottom: 20px; /* Add vertical spacing between sections */
 }
 
+.smallimage {
+	width: 70%;
+}
+
 .walletimage {
   width: 100%; /* Set the width to 25% of its parent container */
   height: auto; /* Maintain the aspect ratio */

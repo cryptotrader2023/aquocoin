@@ -81,6 +81,7 @@ const Roadmap = () => {
               <li>100,000 Holders</li>
               <li>Global Adoption</li>
               <li>Everyone Invests</li>
+              <li>Aquoland Tokenized</li>
             </ul>
           </div>
         </div>
