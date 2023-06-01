@@ -3,7 +3,9 @@ import React from 'react';
 const AboutUs = () => {
   return (
     <div className="container">
-      <h2 className="title">About Us</h2>
+	  <div className="text-center">
+      <h2 className="maintitle">About Us</h2>
+	  </div>
       <div className="row">
         <div className="col-md-6">
           <img src="aboutus.png" alt="About Us" className="img-fluid" />

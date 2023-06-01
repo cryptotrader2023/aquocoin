@@ -4,6 +4,29 @@
 
 }
 
+.box-underneath1 {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.box-underneath {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.space {
+  height: 20px; /* Adjust the height as needed */
+}
+
+
+.newlist {
+  text-align: left;
+}
 /* SectionSeparator.css */
 
 /* Divider.css */
@@ -51,9 +74,12 @@
 .title {
   font-size: 2.5em; /* Adjust the font size using em unit */
     color: #ffffff; /* Change font color to white */
-
 }
 
+.maintitle {
+  font-size: 4.5em; /* Adjust the font size using em unit */
+    color: #ffffff; /* Change font color to white */
+}
 .how-to-buy-container {
 }
 
@@ -61,13 +87,24 @@
   margin-bottom: 20px; /* Add vertical spacing between sections */
 }
 
-.how-to-buy-box {
+.walletimage {
+  width: 100%; /* Set the width to 25% of its parent container */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.how-to-buy-box1 {
   border: 1px solid #000000;
   padding: 20px;
   background-color: #23A5D9;
   color: #ffffff;
   font-weight: normal; /* Set the font weight to normal */
 }
+
+
+
+
+
+
 
 .how-to-buy-box h3 {
   margin-top: 0;

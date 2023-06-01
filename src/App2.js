@@ -17,6 +17,7 @@ import './ColorStyles.css';
 import whitepaper from './whitepaper.pdf';
 import { Link } from 'react-router-dom';
 
+
 const App = () => {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
@@ -26,16 +27,22 @@ const App = () => {
   const buyNowRef = useRef(null);
   const [expanded, setExpanded] = useState(false);
 
-  const scrollToSection = (ref) => {
-    const offset = -10; // Adjust the offset as needed
+//  const scrollToSection = (ref) => {
+  //  ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  //  setExpanded(false); // Collapse the navbar after clicking a menu item on mobile
+//  };
 
-    ref.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-      inline: 'nearest',
-      offset: offset,
-    });
-  };
+const scrollToSection = (ref) => {
+  const offset = -10; // Adjust the offset as needed
+
+  ref.current.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+    inline: 'nearest',
+    offset: offset,
+  });
+};
+
 
   return (
     <Container>
@@ -68,9 +75,10 @@ const App = () => {
             <Nav.Link href="#buyNow" onClick={() => scrollToSection(buyNowRef)} className="nav-link">
               Buy Now
             </Nav.Link>
-            <Nav.Link as={Link} to={whitepaper} target="_blank" className="nav-link">
-              Whitepaper
-            </Nav.Link>
+	  <Nav.Link as={Link} to={whitepaper} target="_blank" className="nav-link">
+  Whitepaper
+</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Navbar>

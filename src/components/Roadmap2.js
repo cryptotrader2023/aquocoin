@@ -5,33 +5,19 @@ const Roadmap = () => {
     <div className="how-to-buy-container">
       {/* First Row */}
       <div className="row">
+	  <div className="col-md-4">
+  <img src="leftimage.png" alt="Left Image" className="img-fluid" style={{ maxWidth: '100%', height: 'auto' }} />
+</div>
+
         <div className="col-md-4">
-	            <div className="image-container">
-
-          <img src="leftimage.png" alt="Left Image" className="img-fluid"  />
-        </div>
-        </div>
-        <div className="col-md-4 text-center">
           <div className="centered-box">
-            <h3 className="maintitle">Roadmap</h3>
-	      <div className="space" />
-
-            <div className="box-underneath">
-              <div className="how-to-buy-box">
-              <ul className="newlist">
-                <li>Phase 1 Launch</li>
-                <li>Phase 2 Build Framework</li>
-                <li>Phase 3 Tokenization</li>
-              </ul>
-              </div>
-            </div>
+            <h3 className="title">Roadmap</h3>
+            <div className="box-underneath" />
           </div>
         </div>
-        <div className="col-md-4">
-	            <div className="image-container">
-          <img src="rightimage.png" alt="Right Image" className="img-fluid"  />
-        </div>
-        </div>
+	  <div className="col-md-4">
+  <img src="rightimage.png" alt="Left Image" className="img-fluid" style={{ maxWidth: '100%', height: 'auto' }} />
+</div>
       </div>
 
       {/* Second Row */}

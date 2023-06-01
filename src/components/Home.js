@@ -16,8 +16,8 @@ const Home = () => {
           </div>
         </div>
         <div className="col-md-6">
-          <div className="image-container">
-            <img src="home2.png" alt="About Us" className="img-fluid" />
+          <div className="image-container2">
+            <img src="home2.png" alt="Aquo Token" className="img-fluid" />
           </div>
         </div>
       </div>
