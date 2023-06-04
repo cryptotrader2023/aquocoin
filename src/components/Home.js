@@ -8,7 +8,7 @@ const Home = () => {
           <div className="text-container">
             <img src="aquonam.png" alt="$AQUO" /> {/* Replace with the image URL that contains the desired text */}
             <p className="description">
-              It&apos;s time to make real world assets group by portfolios (houses, vintage cars, fine art, currencies, commodities) liquid. The banks have had their day, it&apos;s time for Aquo to reign.
+              It&apos;s time to make real world assets grouped by portfolios (houses, vintage cars, fine art, currencies, commodities) liquid. The banks have had their day, it&apos;s time for Aquo to reign.
             </p>
             <a href="https://twitter.com/aquocoin" target="_blank" rel="noopener noreferrer">
               <img src="twitter.png" alt="Twitter" />
